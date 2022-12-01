@@ -1,0 +1,12 @@
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.deps.json
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.dll
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.pdb
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.AssemblyReference.cache
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfoInputs.cache
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfo.cs
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.CoreCompileInputs.cache
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.dll
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\refint\Common.Logging.dll
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.pdb
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\ref\Common.Logging.dll

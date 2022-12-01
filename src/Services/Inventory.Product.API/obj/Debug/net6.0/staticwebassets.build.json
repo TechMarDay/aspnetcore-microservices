@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wSC/USBH59BzmgTA2IGeZ9uSuTDCIJ8xUwiluwkaIdg=",
+  "Source": "Inventory.Product.API",
+  "BasePath": "_content/Inventory.Product.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

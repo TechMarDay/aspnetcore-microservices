@@ -1,0 +1,12 @@
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\bin\Debug\net6.0\Shared.deps.json
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\bin\Debug\net6.0\Shared.dll
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\bin\Debug\net6.0\Shared.pdb
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.dll
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\refint\Shared.dll
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\Shared.pdb
+C:\MyWorkspace\Microservices\aspnetcore-microservices\src\BuildingBlocks\Shared\obj\Debug\net6.0\ref\Shared.dll

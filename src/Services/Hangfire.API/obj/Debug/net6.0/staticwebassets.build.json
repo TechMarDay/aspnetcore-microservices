@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nFSkS/vrWpPYtFv4adFYtGYR6XHl7f/bsTCqvxUELvw=",
+  "Source": "Hangfire.API",
+  "BasePath": "_content/Hangfire.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
