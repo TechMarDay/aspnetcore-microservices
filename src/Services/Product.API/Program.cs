@@ -1,91 +1,25 @@
+var builder = WebApplication.CreateBuilder(args);
 
-using Common.Logging;
-using Product.API.Extensions;
-using Serilog;
+// Add services to the container.
 
-/*
-//Log.Logger = new LoggerConfiguration()
-//    .WriteTo.Console()
-//    .CreateBootstrapLogger();
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-Log.Information("Starting Product API");
+var app = builder.Build();
 
-try
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    var builder = WebApplication.CreateBuilder(args);
-
-    //builder.Host.UseSerilog((ctx, lc) => lc
-    //.WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}-{NewLine}-{Message:lj}-{NewLine}-{Exception}-{NewLine}")
-    //.Enrich.FromLogContext()
-    //.ReadFrom.Configuration(ctx.Configuration));
-
-    builder.Host.UseSerilog(Serilogger.Configure);
-
-    //output template 
-
-    // Add services to the container.
-
-    builder.Services.AddControllers();
-    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-    builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
-
-    var app = builder.Build();
-
-    // Configure the HTTP request pipeline.
-    if (app.Environment.IsDevelopment())
-    {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    }
-
-    app.UseHttpsRedirection();
-
-    app.UseAuthorization();
-
-    app.MapControllers();
-
-    app.Run();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
-catch (Exception ex)
-{
-    Log.Fatal(ex, "Unhandled exception");
-}
-finally
-{
-    Log.Information("Shut down Product API complete");
-    Log.CloseAndFlush();
-}*/
 
+app.UseHttpsRedirection();
 
-//Log.Logger = new LoggerConfiguration()
-//    .WriteTo.Console()
-//    .CreateBootstrapLogger();
+app.UseAuthorization();
 
-Log.Information("Starting Product API");
+app.MapControllers();
 
-try
-{
-    var builder = WebApplication.CreateBuilder(args);
-
-
-    builder.Host.UseSerilog(Serilogger.Configure);
-
-    builder.Host.AddAppConfigurations();
-
-    builder.Services.AddInfrastructure(builder.Configuration);
-
-    var app = builder.Build();
-    app.UseInfrastructure();
-
-    app.Run();
-}
-catch (Exception ex)
-{
-    Log.Fatal(ex, "Unhandled exception");
-}
-finally
-{
-    Log.Information("Shut down Product API complete");
-    Log.CloseAndFlush();
-}
+app.Run();

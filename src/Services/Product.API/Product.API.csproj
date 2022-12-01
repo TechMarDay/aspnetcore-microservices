@@ -22,8 +22,4 @@
     <ProjectReference Include="..\..\BuildingBlocks\Contracts\Contracts.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>
