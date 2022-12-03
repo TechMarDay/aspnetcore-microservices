@@ -12,6 +12,7 @@ services:
   ports:
   - "1435:1433"
 
+
  #productdb: mysql
  productdb:
   container_name: productdb

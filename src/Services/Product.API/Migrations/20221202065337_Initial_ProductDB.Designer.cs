@@ -11,8 +11,8 @@ using Product.API.Persistence;
 namespace Product.API.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20221201083518_IntializeProductDB")]
-    partial class IntializeProductDB
+    [Migration("20221202065337_Initial_ProductDB")]
+    partial class Initial_ProductDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

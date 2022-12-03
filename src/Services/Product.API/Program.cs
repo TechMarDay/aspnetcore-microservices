@@ -24,7 +24,7 @@ try
     {
         ProductContextSeed.SeedProductAsync(context, Log.Logger).Wait();
     })
-        .Run();
+   .Run();
 }
 catch (Exception ex)
 {

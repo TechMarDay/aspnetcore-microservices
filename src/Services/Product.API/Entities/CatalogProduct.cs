@@ -19,7 +19,6 @@ namespace Product.API.Entities
         public string Summary { get; set; }
 
         [Required]
-        //[Column(TypeName = "nvarchar(500)")]
         public string Description { get; set; }
 
         [Column(TypeName = "decimal(12,2)")]

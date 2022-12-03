@@ -23,12 +23,13 @@ namespace Product.API.Extensions
             services.ConfigureProductDbContext(configuration);
             services.AddInfrastructureServices();
 
+            services.AddAutoMapper(cfg => cfg.AddProfile(new MappingProfile()));
+
             return services;
         }
 
         public static IServiceCollection ConfigureProductDbContext(this IServiceCollection services, IConfiguration configuration)
         {
-            //var connectionString = "server=localhost;port=3307;database=ProductDB;user=root;password=Asdf@1234";
             var connectionString =  configuration.GetConnectionString("DefaultConnectionString");
             var builder = new MySqlConnectionStringBuilder(connectionString);
 
