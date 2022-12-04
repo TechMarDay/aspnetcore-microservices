@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		src\docker-compose.override.yml = src\docker-compose.override.yml
 		src\docker-compose.yml = src\docker-compose.yml
+		src\Services\Product.API\Dockerfile = src\Services\Product.API\Dockerfile
 		global.json = global.json
 		README.md = README.md
 	EndProjectSection
