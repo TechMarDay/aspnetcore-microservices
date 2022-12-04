@@ -25,6 +25,7 @@ try
         ProductContextSeed.SeedProductAsync(context, Log.Logger).Wait();
     })
    .Run();
+    app.Run();
 }
 catch (Exception ex)
 {
